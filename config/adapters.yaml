@@ -1,0 +1,19 @@
+modelMap:
+  qwen-turbo: qwen
+  claude-3-haiku: claude
+  deepseek-chat: deepseek
+  ollama-llama3: ollama
+
+adapters:
+  qwen:
+    endpoint: "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation"
+    apiKey: "YOUR_QWEN_KEY"
+  claude:
+    endpoint: "https://api.anthropic.com/v1/messages"
+    apiKey: "YOUR_CLAUDE_KEY"
+  deepseek:
+    endpoint: "https://api.deepseek.com/v1/chat/completions"
+    apiKey: "YOUR_DEEPSEEK_KEY"
+  ollama:
+    endpoint: "http://localhost:11434/api/chat"
+    apiKey: "ollama"
