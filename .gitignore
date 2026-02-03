@@ -5,3 +5,12 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+log.txt
+.idea
+dist
+.vscode
+tsconfig.tsbuildinfo
+
+# Documentation build output
+docs/build
+docs/.docusaurus
